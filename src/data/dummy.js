@@ -82,43 +82,58 @@ export const EditorData = () => (
   <div>
     <h1> Getting Started with React for Shoppilo </h1>
     <h3>
-    <p>
-      React is the foundation of <strong>Shoppilo</strong>, powering the user experience for storefronts,
-      dashboards, and vendor tools. Its flexibility and performance make it ideal for building everything
-      from lightweight store widgets to complex admin portals. Whether you are adding a simple feature
-      or contributing to the platform's core, React allows you to start small and grow as needed.
-    </p>
+        <p>
+          React is the foundation of <strong>Shoppilo</strong>, powering the user experience for storefronts,
+          dashboards, and vendor tools. Its flexibility and performance make it ideal for building everything
+          from lightweight store widgets to complex admin portals. Whether you are adding a simple feature
+          or contributing to the platform's core, React allows you to start small and grow as needed.
+        </p>
 
-      If you prefer to use your own text editor, you can also download this HTML file, edit it, and open it from the local filesystem in your browser. It does a slow runtime code transformation, so we’d only recommend using this for simple demos.
+          <p>
+          One of the best things about React is its gradual learning curve. You don’t need to learn everything
+          at once. Start by enhancing a static page with dynamic elements, then build up to full applications.
+          This makes it easy to adopt React in stages across the Shoppilo ecosystem.
+        </p>
 
-      Add React to a Website
-      You can add React to an HTML page in one minute. You can then either gradually expand its presence, or keep it contained to a few dynamic widgets.
+        <p>
+          For experimentation and prototyping, you can use online platforms like <em>CodePen</em>,
+          <em> CodeSandbox</em>, or <em>StackBlitz</em>. These tools are great for creating components like
+          product listings, banners, buttons, or rating systems—just like those used throughout Shoppilo.
+        </p>
 
-      Create a New React App
-      When starting a React project, a simple HTML page with script tags might still be the best option. It only takes a minute to set up!
+        <p>
+          If you're ready to build a complete module, such as a vendor dashboard or a store customization
+          panel, we recommend using a modern React project setup. This provides a structured development
+          environment and access to the latest tools and features used across the platform, including component
+          libraries, routing systems, and state management.
+        </p>
 
-      As your application grows, you might want to consider a more integrated setup. There are several JavaScript toolchains we recommend for larger applications. Each of them can work with little to no configuration and lets you take full advantage of the rich React ecosystem. Learn how.
+        <p>
+          Learning React can be approached in different ways depending on your style. Some developers prefer
+          hands-on tutorials, while others focus on understanding key concepts step by step. Both methods are
+          valid. If you’re new, you can start with beginner-friendly guides that introduce the main ideas in
+          simple, relatable terms. With consistent practice, React becomes intuitive and powerful.
+        </p>
 
-      Learn React
-      People come to React from different backgrounds and with different learning styles. Whether you prefer a more theoretical or a practical approach, we hope you’ll find this section helpful.
+        <p>
+          To get the most out of React, a working knowledge of JavaScript is important. You don’t need to be
+          an expert, but being comfortable with basic programming concepts will make the learning process
+          smoother. Many of the principles you’ll use in React—like variables, functions, objects, and arrays—
+          are core to JavaScript as well.
+        </p>
 
-      If you prefer to learn by doing, start with our practical tutorial.
-      If you prefer to learn concepts step by step, start with our guide to main concepts.
-      Like any unfamiliar technology, React does have a learning curve. With practice and some patience, you will get the hang of it.
+        <p>
+          For designers joining Shoppilo, React also offers a friendly and efficient way to turn visual concepts
+          into reusable components. It allows you to manage and update UI elements like headers, product
+          cards, modals, and notifications without relying heavily on backend changes. You can use modern
+          styling tools and preview designs in real time, making collaboration easier and more fluid.
+        </p>
 
-      First Examples
-      The React homepage contains a few small React examples with a live editor. Even if you don’t know anything about React yet, try changing their code and see how it affects the result.
-
-      React for Beginners
-      If you feel that the React documentation goes at a faster pace than you’re comfortable with, check out this overview of React by Tania Rascia. It introduces the most important React concepts in a detailed, beginner-friendly way. Once you’re done, give the documentation another try!
-
-      React for Designers
-      If you’re coming from a design background, these resources are a great place to get started.
-
-      JavaScript Resources
-      The React documentation assumes some familiarity with programming in the JavaScript language. You don’t have to be an expert, but it’s harder to learn both React and JavaScript at the same time.
-
-      We recommend going through this JavaScript overview to check your knowledge level. It will take you between 30 minutes and an hour but you will feel more confident learning React.
+        <p>
+          If you’re just starting out, remember: even the most advanced parts of Shoppilo were once small
+          experiments. The key is to start simple, stay consistent, and explore. With time and curiosity, you’ll
+          become confident in using React to build powerful, interactive experiences across the Shoppilo platform.
+        </p>
     </h3>
   </div>
 );
